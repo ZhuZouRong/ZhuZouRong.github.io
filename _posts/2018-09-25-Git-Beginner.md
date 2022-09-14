@@ -3,7 +3,7 @@ layout:     post
 title:      Git Beginner
 subtitle:   History Blogs @ 2015/10/1
 date:       2018-09-25
-author:     Xin YAO
+author:     Zourong Zhu
 catalog: true
 tags:
     - git
@@ -56,11 +56,11 @@ tags:
       * 1982， open source.
 3. *CVS Concurrent Versions System *
       * 1986 - 1990, open source
-4. *SVN * 
+4. *SVN *
       * 2000, open source
 5. *BitKeeper SCM*
       *  distributed version
-6. *GIT * 
+6. *GIT *
       *  github come out
 <a id="install"></a>
 ### Install
@@ -86,7 +86,7 @@ or you can try:
   * ls
   * mv git-completion.bash ~/.git-completion.bash
   * add to .bashrc that if exist this bash, source it.
-6. help 
+6. help
 <a id="begin"></a>
 ## Begin
 <a id="init-the-git"></a>
@@ -151,7 +151,7 @@ it can help us to ignore some file or dir
  1. help.github.com/articles/ignoring-files
  2. github.com/github/gitignore
 git config --global core.excludesfile pathtofile
-* git rm --cached file 
+* git rm --cached file
 <a id="gitkeep"></a>
 ### .gitkeep
 git log --oneline/ --graph/ --all/ --decorate
@@ -183,22 +183,22 @@ git log --oneline/ --graph/ --all/ --decorate
 
 Attantion: barnch is a stack mode, current branch can't be delete
 <a id="merge"></a>
-### Merge 
+### Merge
 > * git merge exist_branch
 > * git branch --merged
 > * conflict
 >    * 1. change by yourselt
 >    * 2. git log --graph --oneline --all --decorate
->    * 3. git mergetool --tool= 
+>    * 3. git mergetool --tool=
 
-Attention: 
+Attention:
 * keep lines short
 * commits small focused
 * merge often
 <a id="stash"></a>
 ### stash
 1. git stash save "changed mission ..."
-2. git stash list 
+2. git stash list
 3. git stash show stash@{0}  (you may use -p option)
 4. git stash apply
 5. git stash pop
@@ -221,7 +221,7 @@ git commit -m "first commit"
 git remote add origin https://github.com/[User account]/[project name].git
 git push -u origin master
 ```
-* you can easy use 
+* you can easy use
        git remote rm origin
 * git branch -a/-r
 * git push -f
